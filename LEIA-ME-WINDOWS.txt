@@ -1,0 +1,24 @@
+CRMDSS - COMO RODAR NO WINDOWS
+==============================
+
+1. Instale o Node.js (versao LTS, 24 ou mais nova): https://nodejs.org
+   E so avancar no instalador.
+
+2. Descompacte este .zip numa pasta (ex.: Documentos\Crmdss).
+   Importante: descompactar de verdade (botao direito > Extrair tudo).
+   Rodar de dentro do zip nao funciona.
+
+3. Dê dois cliques em INICIAR.bat
+   - Na primeira vez ele baixa os componentes (precisa de internet, 1-2 min).
+   - O navegador abre sozinho em http://localhost:3090
+   - Se o Windows mostrar "O Windows protegeu o computador",
+     clique em "Mais informacoes" > "Executar assim mesmo".
+   - Se o Firewall perguntar, pode permitir (redes privadas).
+
+4. Entrar com:  admin@lente.local  /  senha admin123
+   (no primeiro acesso o sistema pede para criar uma senha nova;
+   o sistema começa vazio, pronto para cadastrar seus clientes)
+   (Troque a senha em Administracao > Tabela de usuarios.)
+
+Para desligar: feche a janela preta.
+Os dados ficam na pasta "data" (arquivo lente.db). Para fazer backup, copie essa pasta.
